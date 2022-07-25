@@ -58,6 +58,7 @@ Get information about a channel order
 | Name | Description | Schema |
 | ---- | ----------- | ------ |
 | scid | The scid user puts in the route hint of invoice to identify order | string |
+| temporary_scid | The scid user puts in the route hint of invoice to identify order | string |
 | created_at | Number of seconds since epoch when this order was created | number |
 | local_balance | Local balance in sats requested by client | number |
 | remote_balance | Remote balance in sats requested by client | number |
